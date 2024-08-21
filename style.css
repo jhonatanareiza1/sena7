@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: rgb(27, 0, 71);
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+
+}
+
+.deslizadorbtnatras {
+    color: cornsilk;
+}
+
+.deslizadorbtnproximo {
+    color: cornsilk;
+}
+
+.deslizadorbtnatras::after {
+    font-size: 2.5rem;
+}
+
+.deslizadorbtnproximo::after {
+    font-size: 2.5rem;
+}
+
+.deslizadorpags-bullet {
+    color: aliceblue;
+    opacity: 1;
+}
+
+.deslizadorpags-bullet-active {
+    background-color: red;
+}
+
+.menu {
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+}
+
+.menu-icono {
+    max-width: 2.5rem;
+}
+
+.menu-1 {
+    margin-right: 16rem;
+
+}
+
+.menu-2 {
+    margin-right: 16rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 0;
+}
+
+.logo1 {
+    max-width: 16rem;
+}
+
+.socials {
+    display: flex;
+}
+
+.imgsocial {
+    max-width: 3rem;
+    border-radius: 50%;
+    margin: 2px;
+}
+
+.linkedin {
+    background-color: antiquewhite;
+}
+
+.socials .social {
+    margin: 0 1rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 1px solid #e87400;
+    border-radius: 50%;
+}
+
+.social:hover {
+    background-color: #e87400;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+
+}
+
+.menu .navbar ul li a {
+    font-size: 1.6rem;
+    padding: 2rem;
+    color: aquamarine;
+    display: block;
+
+}
+
+.menu .navbar ul li a:hover {
+    color: #e87400;
+}
+
+#menu {
+    display: none;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    margin-top: 10em;
+    padding-bottom: 5rem;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+}
+
+.slider-text {
+    margin-left: 7rem;
+    margin-right: 1rem;
+    width: 50%;
+}
+
+.slider-text h1 {
+    font-size: 6rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.slider-text p {
+    font-size: 1.6rem;
+    color: aquamarine;
+}
+
+.btns {
+    margin-top: 4.5rem;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 2px solid #e87400;
+    color: #e87400;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-right: 1.4rem;
+    border-radius: 4.3rem;
+}
+
+.btn-1:hover {
+    background-color: #e87400;
+    color: aliceblue;
+    transition: .5s;
+}
+
+.slider-img {
+    width: 50%;
+}
+
+.slider-img img {
+    margin-right: 12rem;
+    width: 55rem;
+}
